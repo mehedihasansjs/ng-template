@@ -1,0 +1,11 @@
+button {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    font: inherit;
+    padding: 0;
+    
+    &:hover {
+        cursor: pointer;
+    }
+}

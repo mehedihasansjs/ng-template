@@ -1,13 +1,55 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>NgTemplate</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <!-- 
+      The title tag is a required HTML element that specifies the title of the web page.
+      It is the text that appears in the browser tab of the web page.
+      Please set the title to a meaningful value that describes the purpose of the web page
+      on routing setup or from the specific page.
+    -->
+    <title></title>
+
+    <!--
+      The base URL of the application. Generally the root of the application is the domain name.
+      But if the application is hosted in a subdirectory, then the base URL should be set to the subdirectory.
+    -->
+    <base href="/">
+
+    <!--
+      `viewport` meta tag is used to improve the presentation of the web pages on mobile devices.
+      `width=device-width` sets the width of the page to follow the screen-width of the device.
+      `initial-scale=1` sets the initial zoom level when the page is first loaded by the browser.
+
+      For more information, visit: https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
+
+      Do not remove this meta tag. It is required for the application to work correctly on mobile devices.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Mehedi Hasan">
+    <meta name="description" content="Angular 12 Starter Template">
+    <meta name="keywords" content="Angular, Angular 12, Starter Template, Template">
+
+    <!--
+      Favicons are small images that are used by the browser to represent the web page.
+      They are displayed in the browser tab, bookmarks, history, etc.
+      This is also used by the operating system to represent the web page in the taskbar, start menu, etc.
+      So, it is important to set the favicon to a meaningful image that represents the web page.
+
+      The query string `?v=2` is used to invalidate the cache of the favicon.
+      When the favicon is updated, the query string should be updated to a new value to force the browser to fetch the new favicon.
+    -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico?v=2">
+  </head>
+
+  <body>
+    <application-container>
+      <!--
+        The application container is a custom element that is used to render the application.
+        It is a custom element that is defined in the `src/app/app.component.ts` file.
+        The application container is used to render the application content.
+      -->
+    </application-container>
+  </body>
 </html>

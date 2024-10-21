@@ -1,0 +1,119 @@
+[data-theme="dark"] {
+    --color-primary-100: #e3f2fd;
+    --color-primary-200: #bbdefb;
+    --color-primary-300: #90caf9;
+    --color-primary-400: #64b5f6;
+    --color-primary-500: #0b4686;
+    --color-primary-600: #1e88e5;
+    --color-primary-700: #1976d2;
+    --color-primary-800: #1565c0;
+    --color-primary-900: #0d47a1;
+
+    --color-text-on-primary-100: #000000;
+    --color-text-on-primary-200: #000000;
+    --color-text-on-primary-300: #000000;
+    --color-text-on-primary-400: #000000;
+    --color-text-on-primary-500: #ffffff;
+    --color-text-on-primary-600: #ffffff;
+    --color-text-on-primary-700: #ffffff;
+    --color-text-on-primary-800: #ffffff;
+    --color-text-on-primary-900: #ffffff;
+
+    --color-positive-100: #e8f5e9;
+    --color-positive-200: #c8e6c9;
+    --color-positive-300: #a5d6a7;
+    --color-positive-400: #81c784;
+    --color-positive-500: #4caf50;
+    --color-positive-600: #43a047;
+    --color-positive-700: #388e3c;
+    --color-positive-800: #2e7d32;
+    --color-positive-900: #1b5e20;
+
+    --color-text-on-positive-100: #000000;
+    --color-text-on-positive-200: #000000;
+    --color-text-on-positive-300: #000000;
+    --color-text-on-positive-400: #000000;
+    --color-text-on-positive-500: #ffffff;
+    --color-text-on-positive-600: #ffffff;
+    --color-text-on-positive-700: #ffffff;
+    --color-text-on-positive-800: #ffffff;
+    --color-text-on-positive-900: #ffffff;
+
+    --color-negative-100: #ffebee;
+    --color-negative-200: #ffcdd2;
+    --color-negative-300: #ef9a9a;
+    --color-negative-400: #e57373;
+    --color-negative-500: #f44336;
+    --color-negative-600: #e53935;
+    --color-negative-700: #d32f2f;
+    --color-negative-800: #c62828;
+    --color-negative-900: #b71c1c;
+
+    --color-text-on-negative-100: #000000;
+    --color-text-on-negative-200: #000000;
+    --color-text-on-negative-300: #000000;
+    --color-text-on-negative-400: #000000;
+    --color-text-on-negative-500: #ffffff;
+    --color-text-on-negative-600: #ffffff;
+    --color-text-on-negative-700: #ffffff;
+    --color-text-on-negative-800: #ffffff;
+    --color-text-on-negative-900: #ffffff;
+
+    --color-warning-100: #fff3e0;
+    --color-warning-200: #ffe0b2;
+    --color-warning-300: #ffcc80;
+    --color-warning-400: #ffb74d;
+    --color-warning-500: #ff9800;
+    --color-warning-600: #fb8c00;
+    --color-warning-700: #f57c00;
+    --color-warning-800: #ef6c00;
+    --color-warning-900: #e65100;
+
+    --color-text-on-warning-100: #000000;
+    --color-text-on-warning-200: #000000;
+    --color-text-on-warning-300: #000000;
+    --color-text-on-warning-400: #000000;
+    --color-text-on-warning-500: #ffffff;
+    --color-text-on-warning-600: #ffffff;
+    --color-text-on-warning-700: #ffffff;
+    --color-text-on-warning-800: #ffffff;
+    --color-text-on-warning-900: #ffffff;
+
+    --color-info-100: #e1f5fe;
+    --color-info-200: #b3e5fc;
+    --color-info-300: #81d4fa;
+    --color-info-400: #4fc3f7;
+    --color-info-500: #03a9f4;
+    --color-info-600: #039be5;
+    --color-info-700: #0288d1;
+    --color-info-800: #0277bd;
+    --color-info-900: #01579b;
+
+    --color-text-on-info-100: #000000;
+    --color-text-on-info-200: #000000;
+    --color-text-on-info-300: #000000;
+    --color-text-on-info-400: #000000;
+    --color-text-on-info-500: #ffffff;
+    --color-text-on-info-600: #ffffff;
+    --color-text-on-info-700: #ffffff;
+    --color-text-on-info-800: #ffffff;
+    --color-text-on-info-900: #ffffff;
+
+    --color-background: #121212;
+    --color-text-on-background: #ffffff;
+
+    --color-text-default: #ffffff;
+    --color-text-muted: #9e9e9e;
+    --color-text-disabled: #616161;
+    --color-text-hint: #9e9e9e;
+    --color-text-link: #03a9f4;
+    --color-text-link-hover: #039be5;
+    --color-text-link-visited: #4fc3f7;
+    --color-text-link-disabled: #9e9e9e;
+    --color-text-link-active: var(--color-primary-500);
+
+    --color-divider: #424242;
+
+    --color-shadow: #000000;
+    --shadow: 0 2px 5px var(--color-shadow);
+}
