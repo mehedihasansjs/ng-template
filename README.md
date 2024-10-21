@@ -1,27 +1,68 @@
-# NgTemplate
+# Angular Application Boilerplate
+This is a boilerplate for Angular applications. It includes a basic structure for an Angular application,
+with a few components, services, and a routing module.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.2.
+## Features
 
-## Development server
+- Angular 18
+- Industry-standard folder structure
+- Configured with Tailwind CSS
+- Configured with ESLint
+- Configured with Prettier
+- Configured with Husky
+- Integrated with GitHub Actions
+- Enfored Conventional Commits for commit messages
+- Integrated Semantic Versioning
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Create your own Angular application using this boilerplate
 
-## Code scaffolding
+### Using GitHub CLI
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Create a new repository using the GitHub CLI:
 
-## Build
+```bash
+gh repo create <repository-name> --public --template="mehedihasansjs/ng-template"
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### By Cloning the Repository
 
-## Running unit tests
+Clone the repository (SSH):
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+git clone git@github.com:mehedihasansjs/ng-template.git
+```
 
-## Running end-to-end tests
+Clone the repository (HTTPS):
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+git clone https://github.com/mehedihasansjs/ng-template.git
+```
 
-## Further help
+Clone the repository (GitHub CLI):
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```bash
+gh repo clone mehedihasansjs/ng-template
+```
+
+Then navigate to the cloned repository and remove the `.git` directory:
+
+```bash
+cd ng-template
+rm -rf .git
+```
+
+Then initialize a new Git repository:
+
+```bash
+git init
+```
+
+Then add the remote repository:
+
+```bash
+git remote add origin <remote-repository-url>
+```
+
+## Getting Started
+To get started, clone the repository and run `npm install` to install the dependencies.
+Then, run `npm start` to start the development server.
